@@ -19,6 +19,7 @@ body {
     background-repeat: no-repeat;
     /* object-fit: cover; */
     background-size: cover;
+    object-fit: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,3 +48,8 @@ body {
     color: #754905;
     text-align: center;
 }
+ @media (max-width: 600px) {
+    .mainbox{
+        width: ;
+    }
+ }
